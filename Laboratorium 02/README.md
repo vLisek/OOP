@@ -1,13 +1,19 @@
 # 📚 Laboratorium 02
 
 ## 📝 Opis
-To repozytorium zawiera rozwiązanie zadań z Laboratorium 2.
+
+Repozytorium zawierające rozwiązania zadań z laboratorium 2.
 
 ## 📂 Zadania
 
-### 1. Napisz metodę określania oraz rozwiązywania równania kwadratowego $ax^2 + bx + c$, gdzie $a$, $b$, $c$ są dowolnymi stałymi podawanymi przez użytkownika.
+### ✅ Zadanie 1: Równanie kwadratowe
 
-### 2. Napisz metody wyznaczania wartości funkcji określonych wzorami dla argumentów rzeczywistych podawanych przez użytkownika:
+&nbsp;🔹 Napisz metodę określającą oraz rozwiązującą równanie kwadratowe `ax² + bx + c = 0`, gdzie `a, b, c` są dowolnymi stałymi podawanymi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;przez użytkownika.
+<hr>
+
+### ✅ Zadanie 2: Wyznaczanie wartości funkcji
+&nbsp;🔹 Napisz metody wyznaczania wartości funkcji określonych wzorami dla argumentów rzeczywistych podawanych przez użytkownika: <br>
+
 $$
 a(x) =
 \begin{cases} 
@@ -34,18 +40,50 @@ c(x) =
 \end{cases}
 $$
 
-### 3. Napisz metodę porządkowania trzech liczb x, y i z. Od najmniejszej do największej.
+<hr>
 
-### 4. Z wykorzystaniem operatorów logicznych ! (negacja), && (and) napisz metodę, który w zależności od spełnienia pewnych warunków wyświetla odpowiednie komunikaty:
-- Jeśli pada deszcz i jest autobus na przystanku, to „Weź parasol”, „Dostaniesz się na uczelnie”;
-- Jeśli pada deszcz i nie ma autobusu, to „Nie dostaniesz się na uczelnię”;
-- Jeśli nie pada deszcz i jest autobus na przystanku, to „Dostaniesz się na uczelnie”, „Miłego dnia i pięknej pogody” .
-Użytkownik podaje informacje o tym czy pada i czy jest autobus.
+### ✅ Zadanie 3: Porządkowanie liczb
 
-### 5. Z wykorzystaniem operatorów logicznych ! (negacja), || (or) napisz metodę, który w zależności od spełnienia pewnych warunków wyświetla odpowiednie komunikaty:
-- Jeśli nie ma zniżki na samochód lub otrzymałeś premię, to „Możesz kupić samochód!”, „Zniżki na samochód nie ma”;
-- Jeśli nie ma zniżki na samochód lub nie otrzymałeś premii, to „Zakup samochodu trzeba odłożyć na później...”, „Zniżki na samochód nie ma”;
-- Jeśli jest zniżka na samochód lub otrzymałeś premię, to „Możesz kupić samochód!”
-Użytkownik podaje informacje o tym czy jest zniżka na samochód i czy otrzymałeś podwyżkę.
+&nbsp;🔹 Napisz metodę porządkowania trzech liczb `x, y, z`. Od najmniejszej do największej.
+<hr>
 
-### 6. Napisz program który w zależności od wyboru użytkownika pozwoli na wykonywanie działań dodawania, odejmowania, iloczynu, ilorazu i reszty z dzielenia.
+### ✅ Zadanie 4: Warunki logiczne (deszcz i autobus)
+
+&nbsp;🔹 Z wykorzystaniem operatorów logicznych `! (negacja)`, `&& (and)` napisz metodę, który w zależności od spełnienia pewnych warunków &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wyświetla odpowiednie komunikaty:
+
+     🔹 Jeśli pada deszcz i jest autobus na przystanku → `Weź parasol.`, `Dostaniesz się na uczelnię.`
+
+     🔹 Jeśli pada deszcz i nie ma autobusu → `Nie dostaniesz się na uczelnię.`
+
+     🔹 Jeśli nie pada deszcz i jest autobus na przystanku → `Dostaniesz się na uczelnię.`, `Miłego dnia i pięknej pogody.`
+     
+<br>&nbsp;🔹 Użytkownik podaje informacje o tym czy pada i czy jest autobus.
+<hr>
+
+### ✅ Zadanie 5: Warunki logiczne (zniżka i premia)
+
+&nbsp;🔹 Z wykorzystaniem operatorów logicznych `! (negacja)`, `|| (or)` napisz metodę, który w zależności od spełnienia pewnych warunków wyświetla odpowiednie komunikaty:
+
+     🔹 Jeśli nie ma zniżki na samochód lub otrzymałeś premię → `Możesz kupić samochód!`, `Zniżki na samochód nie ma.`
+
+     🔹 Jeśli nie ma zniżki na samochód lub nie otrzymałeś premii → `Zakup samochodu trzeba odłożyć na później...`, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Zniżki na samochód nie ma.`
+
+     🔹 Jeśli jest zniżka na samochód lub otrzymałeś premię → `Możesz kupić samochód!`.
+
+<br>&nbsp;🔹 Użytkownik podaje informacje o tym czy jest zniżka na samochód i czy otrzymał podwyżkę.
+<hr>
+
+### ✅ Zadanie 6: Kalkulator
+
+&nbsp;🔹 Napisz program, który na podstawie wyboru użytkownika wykonuje jedno z działań:
+
+     🔹 ➕ dodawanie
+
+     🔹 ➖ odejmowanie
+
+     🔹 ✖️ iloczyn
+
+     🔹 ➗ iloraz
+
+     🔹 % reszta z dzielenia
+<hr>
