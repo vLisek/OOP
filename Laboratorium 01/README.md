@@ -47,6 +47,8 @@ Repozytorium zawierające rozwiązania zadań z laboratorium 1.
 ### ✅ Zadanie 7: Trójkąt prostokątny
 
 &nbsp;🔹 Napisz metodę, która jako argument przyjmie trzy liczby. <br>
+
 &nbsp;🔹 Metoda powinna zwrócić `true` jeśli z odcinków o długości przekazanych w argumentach można zbudować trójkąt prostokątny. <br> 
+
 &nbsp;🔹 Argumenty przekazywane do metody są liczbami losowymi z przedziału `<a, b>`, gdzie `a` i `b` są podane przez użytkownika.
 <hr>
