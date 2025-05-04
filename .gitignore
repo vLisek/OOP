@@ -1,0 +1,7 @@
+# IntelliJ IDEA settings
+.idea/
+*.iml
+
+# Katalog kompilacji
+out/
+build/
